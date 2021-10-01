@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David Cancio Milián - Lic. Computer Science</title>
+  <!-- Link our CSS stylesheet -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <main>
+    <header>
+        <img src="i/avatar.jpg" alt="Avatar" class="avatar">
+        <div class="header-content">
+            <h1>Hello!<br />My name is David Cancio Milián</h1>
+            <div class="subtitle">
+              Lic. Computer Science <span class="dot">•</span>
+              Flutter <span class="dot">•</span>
+              Android Developer <span class="dot">•</span>
+              NFT Entusiast <span class="dot">•</span>
+              BLockchain Entusiast <span class="dot">•</span>
+              Havana, Cuba <span role="img" aria-label="Cuba">🇨🇺</span>
+            </div>
+            <div class="contacts">
+              <a href="https://github.com/kncio" target="_blank" rel="noopener noreferrer">
+                <span class="icon">
+                  <img src="i/logo_github.svg" alt="GitHub" />
+                </span>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+          </div>
+    </header>
+    <section>
+       
+      <div id="particles-js"></div>
+      <h2>My Coding Activity & Stats</h2>
+
+      <!-- Summary widget -->
+      
+      <!-- Activity widget -->
+      
+      <!-- Skills chart widget -->
+      <p><codersrank-skills-chart username="kncio" legend tooltip labels></codersrank-skills-chart></p>
+    </section>
+    <section>
+      <h2>Recent Projects</h2>
+      <codersrank-portfolio
+      username="kncio"
+      grid
+      company="false"
+      brand="false"
+      dates="false"
+    ></codersrank-portfolio>
+      <!-- Portfolio widget -->
+    </section>
+    <section>
+      <h2>Work Experience & Education</h2>
+
+      <!-- Work experience widget -->
+      <codersrank-work-experience
+      username="kncio"
+      logos
+      >
+      </codersrank-work-experience>
+
+      <!-- Education widget -->
+      <codersrank-education
+        username="kncio"
+        ></codersrank-education>
+    </section>
+
+    <footer>
+      <!-- Generic footer copy -->
+    </footer>
+  </main>
+  <script src="https://unpkg.com/@codersrank/work-experience/codersrank-work-experience.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/education/codersrank-education.min.js"></script>
+  <script src="https://unpkg.com/@codersrank/skills-chart@0.9.10/codersrank-skills-chart.min.js"></script>
+
+   <!--Partical js-->
+   <script src="js/particles.js"></script> 
+   <script src="js/app.js"></script> 
+</body>
+</html>
